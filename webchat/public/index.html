@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coder AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="atom-one-dark.min.css">
+    <script src="highlight.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <h1>Coder AI</h1>
+
+    <div class="main-container">
+        <div id="messages"></div>
+        <form id="chat-form">
+            <div class="pcontainer">
+                <div class="msg-contianer">
+                    <H3>Hello There</H3>
+                    <img src="logo-coder.png" alt="logo-coder">
+                </div>
+
+                <p>
+                    This is a simple demo application of that uses Ollama and the Qwen2.5-Coder-0.5b,
+                    LLM model to run AI-powered chat locally in a containerized environment.
+                    It demonstrates how local large language models can be deployed anywhere and interacted with
+                    directly
+                    through a browser, interface without relying on external APIs or Subsriptions, a Private
+                    Personal AI
+                    Application.
+                </p>
+            </div>
+            <div class="divchat-prompt">
+                <div class="stack-select">
+                    <select id="tech-stack">
+                        <option value="" selected disabled>Select Tech Stack</option>
+                        <option value="">General Knowledge</option>
+                        <option value="mern">MERN Stack</option>
+                        <option value="mean">MEAN Stack</option>
+                        <option value="mevn">MEVN Stack</option>
+                        <option value="lamp">LAMP Stack</option>
+                        <option value="lemp">LEMP Stack</option>
+                        <option value="jamstack">JAMStack</option>
+                        <option value="django">Django Stack</option>
+                        <option value="flask">Flask Stack</option>
+                        <option value="rails">Rails Stack</option>
+                        <option value="dotnet">.NET Stack</option>
+                        <option value="ai">AI / ML</option>
+                        <option value="next">Next.js Stack</option>
+                        <option value="nuxt">Nuxt.js Stack</option>
+                        <option value="sveltekit">SvelteKit Stack</option>
+                    </select>
+                </div>
+                <textarea id="prompt" placeholder="Ask something..."></textarea>
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
+</body>
+
+</html>

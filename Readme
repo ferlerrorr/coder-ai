@@ -1,0 +1,1 @@
+This is a simple demo application of that uses Ollama and the Qwen2.5-Coder-0.5b, LLM model to run AI-powered chat locally in a containerized environment. It demonstrates how local large language models can be deployed anywhere and interacted with directly through a browser, interface without relying on external APIs or Subsriptions, a Private Personal AI Application.
